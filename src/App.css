@@ -1,0 +1,99 @@
+.App {
+    text-align: center;
+    background-color: #2a6bb1;
+}
+
+.CurrentTrips {
+    background-color: #D2D4DA;
+    margin: 0 auto;
+    width: 30%;
+    padding: 1%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    border: 1px solid rgb(212, 212, 212);
+    box-shadow: 0px 0px 39px 17px rgb(252, 251, 251);
+    border-radius: 16px;
+}
+
+.logo {
+    margin: 0 0 0 0;
+}
+
+.nav {
+    background-color: #142850;
+    padding: .5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Dashboard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.manual {
+    font-size: 1.7rem;
+    color: #f1f3f4;
+}
+
+h1 {
+    color: #f1f3f4;
+}
+
+a {
+    color: #C8FCEA;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: #142850;
+}
+
+button {
+    background-color: #142850;
+    padding: 2%;
+    width: 25%;
+    margin-left: 5%;
+    border: #27496d;
+}
+
+button:hover {
+    background-color: #C8FCEA;
+    color: #142850;
+}
+
+.AddTrip {
+    background-color: #D2D4DA;
+    margin: 0 auto;
+    width: 30%;
+    padding: 1%;
+    margin-bottom: 10%;
+    margin-top: 15%;
+    border: 1px solid rgb(212, 212, 212);
+    box-shadow: 0px 0px 39px 17px rgb(252, 251, 251);
+    border-radius: 16px;
+}
+
+.TripForm {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.TripInput {
+    margin-bottom: 5%;
+}
+
+.TripBtn {
+    background-color: #142850;
+    color: #C8FCEA;
+    padding: 4%;
+    width: 50%;
+    margin-left: 5%;
+    border: #27496d;
+    margin: 0 auto;
+}
